@@ -5,10 +5,11 @@
 }
 
 body {
-    font-family: Arial, sans-serif;
-    background-color: #fefefe;
+    font-family: Arial, Georgia, 'Times New Roman', Times, serif;
+    background-color: white;
     color: #333;
     text-align: center;
+    font-weight: bold;
 }
 
 img {
@@ -344,7 +345,6 @@ p {
   border: 1px solid;
   border-radius: 8px;
 }
-
 
 .form-group {
     margin-bottom: 20px;
