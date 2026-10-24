@@ -31,6 +31,18 @@ header .logo img {
     margin: 0 auto 10px;
 }
 
+.logo-text h2 {
+    color: #08743b;
+    font-size: 22px;
+    font-weight: bold;
+}
+.logo-icon {
+    border: 3px solid #d4af37;
+    border-radius: 50%;
+    width: 65px;
+}
+
+
 .tagline {
     margin-top: 6px;
     font-size: 1.05rem;
