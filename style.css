@@ -176,6 +176,7 @@ main {
     display: flex;
     flex-direction: column;
     gap: 16px;
+    border: solid;
 }
 
 .service-card h3 {
@@ -252,6 +253,7 @@ main {
 h2 {
     text-align: center;
     color: #1e293b;
+    text-underline-offset: initial;
 }
 p {
     text-align: center;
