@@ -36,6 +36,7 @@ header .logo img {
     font-size: 22px;
     font-weight: bold;
 }
+
 .logo-icon {
     border: 3px solid #d4af37;
     border-radius: 50%;
@@ -262,23 +263,28 @@ main {
     letter-spacing: 2px;
     text-transform: uppercase;
 }
+
 h2 {
     text-align: center;
     color: #1e293b;
     text-underline-offset: initial;
 }
+
 p {
     text-align: center;
 }
+
 .container {
     max-width: 1000px;
     margin: auto;
 }
+
 .ring {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 20px;
 }
+
 .img {
     height: 220px;
     border-radius: 15px;
@@ -286,19 +292,22 @@ p {
     box-shadow: 0 4px 12px #0002;
     transition: transform 0.3s;
 }
+
 .img:hover {
     transform: scale(1.04);
 }
+
 .img img {
     width: 100%;
     height: 100%;
     object-fit: cover;
 }
-@media (max-width: 600px)
-{
+
+@media (max-width: 600px) {
     .ring {
         grid-template-columns: repeat(2, 1fr);
     }
+
     .img {
         height: 160px;
     }
@@ -345,19 +354,20 @@ p {
     box-shadow: 0 10px 30px rgba(0, 0, 0, 0.06);
     border: 1px solid #ddd;
 }
+
 .map {
-  margin: 30px auto;
-  text-align: center;
+    margin: 30px auto;
+    text-align: center;
 }
 
 .map iframe {
-  display: block;
-  width: 100%;
-  max-width: 700px;
-  height: 400px;
-  margin: 0 auto;
-  border: 1px solid;
-  border-radius: 8px;
+    display: block;
+    width: 100%;
+    max-width: 700px;
+    height: 400px;
+    margin: 0 auto;
+    border: 1px solid;
+    border-radius: 8px;
 }
 
 .form-group {
@@ -698,7 +708,10 @@ footer {
 }
 
 @media (prefers-reduced-motion: reduce) {
-    *, *::before, *::after {
+
+    *,
+    *::before,
+    *::after {
         scroll-behavior: auto !important;
         transition-duration: 0.01ms !important;
         animation-duration: 0.01ms !important;
