@@ -8,47 +8,41 @@
     <link rel="stylesheet" href="style.css">
 </head>
 
-<body data-page="contacts">
+<body id="top">
     <header>
         <div class="logo">
             <img src="logo.jpeg" alt="Forever Living Products logo">
             <div class="logo-text">
                 <h2>Forever Living Products</h2>
-                <p class="tagline" data-typewriter="Your health problem, our solution">Your health problem, our solution</p>
+                <p class="tagline">Your health problem, our solution</p>
             </div>
         </div>
-        <nav data-nav>
-            <a href="index.html" data-page="home">Home</a>
-            <a href="services.html" data-page="services">Services</a>
-            <a href="product image.html" data-page="product-image">Product Image</a>
-            <a href="contacts.html" data-page="contacts">Contacts</a>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="services.html">Services</a>
+            <a href="product image.html">Product Image</a>
+            <a class="active" href="contacts.html">Contacts</a>
         </nav>
     </header>
     <main>
-        <section class="page-section" data-observe>
+        <section class="page-section">
             <h1>Contact us</h1>
             <p class="section-intro">We're here to help. Reach out to book a consultation, restock your favourite
                 products, or ask a question.</p>
         </section>
-        <section class="contact-container" data-observe>
-            <article class="contact-info" data-card>
+        <section class="contact-container">
+            <article class="contact-info">
                 <span class="section-label">Contact information</span>
                 <h3>ForeverLivingProducts</h3>
                 <p>We love hearing from you. Choose any of the following options to connect.</p>
 
-                <div data-card-details>
+                <div>
                     <strong>Location</strong>
                     <p>Gulu, Uganda</p>
 
                     <strong>Email</strong>
                     <p>
-                        <button class="button copy-email" type="button" data-copy="fortunateaber494@gmail.com">
-                            <svg viewBox="0 0 24 24" aria-hidden="true">
-                                <path
-                                    d="M16 1H4a2 2 0 0 0-2 2v12h2V3h12V1Zm3 4H8a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h11a2 2 0 0 0 2-2V7a2 2 0 0 0-2-2Zm0 16H8V7h11v14Z" />
-                            </svg>
-                            fortunateaber494@gmail.com
-                        </button>
+                        <a class="button" href="mailto:fortunateaber494@gmail.com">fortunateaber494@gmail.com</a>
                     </p>
 
                     <strong>Phone</strong>
@@ -58,7 +52,7 @@
                     <p>Weekdays, 7:00 AM – 6:00 PM</p>
                 </div>
             </article>
-            <form class="contact-form" data-contact-form>
+            <form class="contact-form" action="mailto:fortunateaber494@gmail.com" method="post" enctype="text/plain">
                 <div class="form-group">
                     <label for="name">Name</label>
                     <input id="name" name="name" type="text" placeholder="Enter your name" required>
@@ -76,7 +70,6 @@
                     <input id="preferredTime" name="preferredTime" type="datetime-local">
                 </div>
                 <button class="button" type="submit">Send message</button>
-                <div class="form-feedback" aria-live="polite"></div>
             </form>
         </section>
         <section class="map">
@@ -90,10 +83,9 @@
         </section>
     </main>
     <footer>
-        <p>© <span data-year></span> ForeverLivingProducts. All rights reserved.</p>
+        <p>© 2026 ForeverLivingProducts. All rights reserved.</p>
     </footer>
-    <button id="backToTop" type="button" aria-label="Back to top">↑</button>
-    <script src="main.js" defer></script>
+    <a id="backToTop" href="#top" aria-label="Back to top">↑</a>
 </body>
 
 </html>
