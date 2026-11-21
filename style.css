@@ -101,11 +101,6 @@ header nav a:hover {
     background-color: #e8f1e9;
 }
 
-header nav a.active {
-    color: #fff;
-    background-color: #1d6845;
-}
-
 main {
     text-align: left;
 }
@@ -366,19 +361,6 @@ p {
     margin-top: 8px;
 }
 
-.contact-info .copy-email {
-    display: inline-flex;
-    align-items: center;
-    gap: 8px;
-    background-color: rgba(255, 255, 255, 0.18);
-}
-
-.contact-info .copy-email svg {
-    width: 18px;
-    height: 18px;
-    fill: currentColor;
-}
-
 .contact-form {
     background-color: #ebe1e1;
     padding: 40px;
@@ -439,26 +421,6 @@ p {
     min-height: 140px;
 }
 
-.form-feedback {
-    margin-top: 15px;
-    min-height: 24px;
-    font-weight: bold;
-    color: #256029;
-}
-
-.form-feedback.error {
-    color: #b71c1c;
-}
-
-.form-feedback.success {
-    color: #256029;
-}
-
-#map {
-    max-width: 960px;
-    margin: 0 auto;
-}
-
 .timeline {
     display: grid;
     gap: 24px;
@@ -472,8 +434,11 @@ p {
     border-radius: 12px;
     padding: 24px;
     box-shadow: 0 10px 26px rgba(0, 0, 0, 0.05);
+<<<<<<< HEAD
     transform: none;
     opacity: 1;
+=======
+>>>>>>> 7687b5c45689e7f6e8d39f15ff1746471eb0dbc8
 }
 
 footer {
@@ -496,6 +461,7 @@ footer {
     color: #fff;
     font-size: 1.4rem;
     cursor: pointer;
+<<<<<<< HEAD
     opacity: 1;
     pointer-events: auto;
     display: flex;
@@ -512,6 +478,13 @@ footer {
 }
 
 
+=======
+    text-decoration: none;
+    transition: transform 0.3s ease, background-color 0.3s ease;
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.15);
+}
+
+>>>>>>> 7687b5c45689e7f6e8d39f15ff1746471eb0dbc8
 @media (max-width: 992px) {
     .services-container {
         grid-template-columns: repeat(2, minmax(0, 1fr));
@@ -672,13 +645,6 @@ footer {
     .form-group input,
     .form-group textarea {
         overflow-wrap: anywhere;
-    }
-
-    .copy-email {
-        width: 100%;
-        justify-content: center;
-        font-size: 13px;
-        padding-inline: 8px;
     }
 
     .map {
