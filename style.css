@@ -4,6 +4,10 @@
     box-sizing: border-box;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     font-family: Arial, Georgia, 'Times New Roman', Times, serif;
     background-color: white;
@@ -434,11 +438,8 @@ p {
     border-radius: 12px;
     padding: 24px;
     box-shadow: 0 10px 26px rgba(0, 0, 0, 0.05);
-<<<<<<< HEAD
     transform: none;
     opacity: 1;
-=======
->>>>>>> 7687b5c45689e7f6e8d39f15ff1746471eb0dbc8
 }
 
 footer {
@@ -461,7 +462,6 @@ footer {
     color: #fff;
     font-size: 1.4rem;
     cursor: pointer;
-<<<<<<< HEAD
     opacity: 1;
     pointer-events: auto;
     display: flex;
@@ -477,14 +477,13 @@ footer {
     transform: translateY(-2px);
 }
 
-
-=======
+#backToTop:active {
+    background-color: #174b34;
     text-decoration: none;
     transition: transform 0.3s ease, background-color 0.3s ease;
     box-shadow: 0 12px 24px rgba(0, 0, 0, 0.15);
 }
 
->>>>>>> 7687b5c45689e7f6e8d39f15ff1746471eb0dbc8
 @media (max-width: 992px) {
     .services-container {
         grid-template-columns: repeat(2, minmax(0, 1fr));
